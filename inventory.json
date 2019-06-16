@@ -374,7 +374,7 @@
                 "link",
                 "zelda"
             ]
-        },
+        }
     },
     "character_abilities": {
         "l_button": {},
@@ -544,6 +544,6 @@
             ],
             "special": true,
             "location": ""
-        },
+        }
     }
 }

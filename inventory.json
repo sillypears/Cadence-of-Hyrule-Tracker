@@ -124,170 +124,178 @@
         "bow": {
             "name": "Bow",
             "image": "item_bow",
-            "uses": {},
-            "skips": {},
+            "uses": [],
+            "skips": [],
             "progressive": true,
             "requires": ""
         },
         "great_bow": {
             "name": "Great Bow",
             "image": "item_bow_great",
-            "uses": {},
-            "skips": {},
+            "uses": [],
+            "skips": [],
             "progressive": true,
             "requires": "bow"
         },
         "boomerang": {
             "name": "Boomerang",
             "image": "item_boomerang",
-            "uses": {},
-            "skips": {},
+            "uses": [],
+            "skips": [],
             "progressive": true,
             "requires": ""
         },
         "magic_boomerang": {
             "name": "Magic Boomerang",
             "image": "item_boomerang_magic",
-            "uses": {},
-            "skips": {},
+            "uses": [],
+            "skips": [],
             "progressive": true,
             "requires": "boomerang"
         },
         "fire_rod": {
             "name": "Fire Rod",
             "image": "item_rod_fire",
-            "uses": {},
-            "skips": {},
+            "uses": [],
+            "skips": [],
             "progressive": false,
             "requires": ""
         },
         "ice_rod": {
             "name": "Ice Rod",
             "image": "item_rod_ice",
-            "uses": {},
-            "skips": {},
+            "uses": [],
+            "skips": [],
             "progressive": false,
             "requires": ""
         },
         "hookshot": {
             "name": "Hookshot",
             "image": "item_hookshot",
-            "uses": {},
-            "skips": {},
+            "uses": [],
+            "skips": [],
             "progressive": true,
             "requires": ""
         },
         "longshot": {
             "name": "Longshot",
             "image": "item_longshot",
-            "uses": {},
-            "skips": {},
+            "uses": [],
+            "skips": [],
             "progressive": true,
             "requires": "hookshot"
         },
         "anklet": {
             "name": "Pegasus Anklet",
             "image": "item_pegasus_anklet",
-            "uses": {},
-            "skips": {},
+            "uses": [],
+            "skips": [],
             "progressive": false,
             "requires": ""
         },
         "feather": {
             "name": "Rito's Feather",
             "image": "item_ritos_feather",
-            "uses": {},
-            "skips": {},
+            "uses": [],
+            "skips": [],
             "progressive": false,
             "requires": ""
         },
         "deku_leaf": {
             "name": "Deku Leaf",
             "image": "item_deku_leaf",
-            "uses": {},
-            "skips": {},
+            "uses": [],
+            "skips": [],
             "progressive": false,
             "requires": ""
         },
         "war_drum": {
             "name": "War Drum",
             "image": "item_war_drum",
-            "uses": {},
-            "skips": {},
+            "uses": [],
+            "skips": [],
             "progressive": false,
             "requires": ""
         },
         "somaria": {
             "name": "Cane of Somaria",
             "image": "item_cane_of_somaria",
-            "uses": {},
-            "skips": {},
+            "uses": [],
+            "skips": [],
             "progressive": false,
             "requires": ""
         },
         "lute": {
             "name": "Lute",
             "image": "item_lute",
-            "uses": {},
-            "skips": {},
+            "uses": [],
+            "skips": [],
             "progressive": false,
             "requires": ""
         },
         "glove": {
             "name": "Power Glove",
             "image": "item_power_glove",
-            "uses": {},
-            "skips": {},
+            "uses": [],
+            "skips": [],
             "progressive": false,
             "requires": ""
         },
         "dowser": {
             "name": "Tingle's Dowser",
             "image": "item_tingles_dowser",
-            "uses": {},
-            "skips": {},
+            "uses": [],
+            "skips": [],
             "progressive": false,
             "requires": ""
         },
         "gear": {
             "name": "Gear",
             "image": "item_gear",
-            "uses": {},
-            "skips": {},
+            "uses": [],
+            "skips": [],
             "progressive": false,
             "requires": ""
         },
         "deku_nuts": {
             "name": "Deku Nuts",
             "image": "item_deku_nuts",
-            "uses": {},
-            "skips": {},
+            "uses": [],
+            "skips": [],
             "progressive": false,
             "requires": ""
         },
         "shield": {
             "name": "Hylian Shield",
             "image": "item_shield_hylian",
-            "uses": {},
-            "skips": {},
+            "uses": [],
+            "skips": [],
             "progressive": true,
             "requires": ""
         },
         "tower_shield": {
             "name": "Tower Shield",
             "image": "item_shield_tower",
-            "uses": {},
-            "skips": {},
+            "uses": [],
+            "skips": [],
             "progressive": true,
             "requires": "shield"
         },
         "mirror_shield": {
             "name": "Mirror Shield",
             "image": "item_shield_mirror",
-            "uses": {},
-            "skips": {},
+            "uses": [],
+            "skips": [],
             "progressive": true,
             "requires": "tower_shield"
+        },
+        "bottle": {
+            "name": "Bottle",
+            "image": "item_bottle",
+            "uses": [],
+            "skips": [],
+            "progressive": false,
+            "requires": ""
         }
     },
     "abilities": {

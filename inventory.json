@@ -126,7 +126,7 @@
             "image": "item_bow",
             "uses": {},
             "skips": {},
-            "progressive": false,
+            "progressive": true,
             "requires": ""
         },
         "great_bow": {
@@ -142,7 +142,7 @@
             "image": "item_boomerang",
             "uses": {},
             "skips": {},
-            "progressive": false,
+            "progressive": true,
             "requires": ""
         },
         "magic_boomerang": {
@@ -174,7 +174,7 @@
             "image": "item_hookshot",
             "uses": {},
             "skips": {},
-            "progressive": false,
+            "progressive": true,
             "requires": ""
         },
         "longshot": {
@@ -270,7 +270,7 @@
             "image": "item_shield_hylian",
             "uses": {},
             "skips": {},
-            "progressive": false,
+            "progressive": true,
             "requires": ""
         },
         "tower_shield": {

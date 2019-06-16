@@ -1,0 +1,549 @@
+{
+    "dungeons": {
+        "TOS": {
+            "meta": {
+                "name": "Temple of Storms",
+                "shortname": "TOS",
+                "type": "Dungeon",
+                "area": "Death Mountain",
+                "region": "Light World"
+            },
+            "skips": {},
+            "boss": {
+                "name": "Gleeokenspiel",
+                "image": "boss_gleeokenspiel",
+                "kills": {},
+                "reward": "Glockenspiel",
+                "reward_image": "reward_glockenspiel"
+            }
+        },
+        "GR": {
+            "meta": {
+                "name": "Gerudo Ruins",
+                "shortname": "GV",
+                "type": "Dungeon",
+                "area": "Gerudo Valley",
+                "region": "Light World"
+            },
+            "skips": {},
+            "boss": {
+                "name": "Bass Guitarmos Knights",
+                "image": "boss_guitarmos_knights",
+                "kills": {},
+                "reward": "Bass Guitar",
+                "reward_image": "reward_bass_guitar"
+            }
+        },
+        "LS": {
+            "meta": {
+                "name": "Lost Swamp",
+                "shortname": "LS",
+                "type": "Dungeon",
+                "area": "Lost Woods",
+                "region": "Light World"
+            },
+            "skips": {},
+            "boss": {
+                "name": "Gohmaracas",
+                "image": "boss_gohmaracas",
+                "kills": {},
+                "reward": "Maracas",
+                "reward_image": "reward_maracas"
+            }
+        },
+        "FG": {
+            "meta": {
+                "name": "Frozen Grotto",
+                "shortname": "FC",
+                "type": "Dungeon",
+                "area": "Lake Hylia",
+                "region": "Light World"
+            },
+            "skips": {},
+            "boss": {
+                "name": "Wizzroboe",
+                "image": "boss_wizzroboe",
+                "kills": {},
+                "reward": "Oboe",
+                "reward_image": "reward_oboe"
+            }
+        },
+        "KVG": {
+            "meta": {
+                "name": "Kakariko Village Graveyard",
+                "shortname": "HC",
+                "type": "Dungeon",
+                "area": "Kakariko Village",
+                "region": "Light World"
+            },
+            "skips": {},
+            "boss": {
+                "name": "Dark Hero",
+                "image": "boss_dark_hero",
+                "kills": {},
+                "reward": "Hibiscus Potion",
+                "reward_image": "reward_hibiscus_potion"
+            }
+        },
+        "HC": {
+            "meta": {
+                "name": "Hyrule Castle",
+                "shortname": "HC",
+                "type": "Dungeon",
+                "area": "Hyrule Castle",
+                "region": "Light World"
+            },
+            "skips": {},
+            "boss": {
+                "name": "Octavo",
+                "image": "boss_octavo",
+                "kills": {},
+                "reward": "Dark World Access",
+                "reward_image": "reward_dark_world_access"
+            }
+        },
+        "DHC": {
+            "meta": {
+                "name": "Dark Hyrule Castle",
+                "shortname": "DHC",
+                "type": "Dungeon",
+                "area": "Hyrule Castle",
+                "region": "Light World"
+            },
+            "skips": {},
+            "boss": {
+                "name": "Ganon",
+                "image": "boss_ganon",
+                "kills": {},
+                "reward": "",
+                "reward_image": ""
+            }
+        }
+    },
+    "items": {
+        "bow": {
+            "name": "Bow",
+            "image": "item_bow",
+            "uses": {},
+            "skips": {},
+            "progressive": false,
+            "requires": ""
+        },
+        "great_bow": {
+            "name": "Great Bow",
+            "image": "item_bow_great",
+            "uses": {},
+            "skips": {},
+            "progressive": true,
+            "requires": "bow"
+        },
+        "boomerang": {
+            "name": "Boomerang",
+            "image": "item_boomerang",
+            "uses": {},
+            "skips": {},
+            "progressive": false,
+            "requires": ""
+        },
+        "magic_boomerang": {
+            "name": "Magic Boomerang",
+            "image": "item_boomerang_magic",
+            "uses": {},
+            "skips": {},
+            "progressive": true,
+            "requires": "boomerang"
+        },
+        "fire_rod": {
+            "name": "Fire Rod",
+            "image": "item_rod_fire",
+            "uses": {},
+            "skips": {},
+            "progressive": false,
+            "requires": ""
+        },
+        "ice_rod": {
+            "name": "Ice Rod",
+            "image": "item_rod_ice",
+            "uses": {},
+            "skips": {},
+            "progressive": false,
+            "requires": ""
+        },
+        "hookshot": {
+            "name": "Hookshot",
+            "image": "item_hookshot",
+            "uses": {},
+            "skips": {},
+            "progressive": false,
+            "requires": ""
+        },
+        "longshot": {
+            "name": "Longshot",
+            "image": "item_longshot",
+            "uses": {},
+            "skips": {},
+            "progressive": true,
+            "requires": "hookshot"
+        },
+        "anklet": {
+            "name": "Pegasus Anklet",
+            "image": "item_pegasus_anklet",
+            "uses": {},
+            "skips": {},
+            "progressive": false,
+            "requires": ""
+        },
+        "feather": {
+            "name": "Rito's Feather",
+            "image": "item_ritos_feather",
+            "uses": {},
+            "skips": {},
+            "progressive": false,
+            "requires": ""
+        },
+        "deku_leaf": {
+            "name": "Deku Leaf",
+            "image": "item_deku_leaf",
+            "uses": {},
+            "skips": {},
+            "progressive": false,
+            "requires": ""
+        },
+        "war_drum": {
+            "name": "War Drum",
+            "image": "item_war_drum",
+            "uses": {},
+            "skips": {},
+            "progressive": false,
+            "requires": ""
+        },
+        "somaria": {
+            "name": "Cane of Somaria",
+            "image": "item_cane_of_somaria",
+            "uses": {},
+            "skips": {},
+            "progressive": false,
+            "requires": ""
+        },
+        "lute": {
+            "name": "Lute",
+            "image": "item_lute",
+            "uses": {},
+            "skips": {},
+            "progressive": false,
+            "requires": ""
+        },
+        "glove": {
+            "name": "Power Glove",
+            "image": "item_power_glove",
+            "uses": {},
+            "skips": {},
+            "progressive": false,
+            "requires": ""
+        },
+        "dowser": {
+            "name": "Tingle's Dowser",
+            "image": "item_tingles_dowser",
+            "uses": {},
+            "skips": {},
+            "progressive": false,
+            "requires": ""
+        },
+        "gear": {
+            "name": "Gear",
+            "image": "item_gear",
+            "uses": {},
+            "skips": {},
+            "progressive": false,
+            "requires": ""
+        },
+        "deku_nuts": {
+            "name": "Deku Nuts",
+            "image": "item_deku_nuts",
+            "uses": {},
+            "skips": {},
+            "progressive": false,
+            "requires": ""
+        },
+        "shield": {
+            "name": "Hylian Shield",
+            "image": "item_shield_hylian",
+            "uses": {},
+            "skips": {},
+            "progressive": false,
+            "requires": ""
+        },
+        "tower_shield": {
+            "name": "Tower Shield",
+            "image": "item_shield_tower",
+            "uses": {},
+            "skips": {},
+            "progressive": true,
+            "requires": "shield"
+        },
+        "mirror_shield": {
+            "name": "Mirror Shield",
+            "image": "item_shield_mirror",
+            "uses": {},
+            "skips": {},
+            "progressive": true,
+            "requires": "tower_shield"
+        }
+    },
+    "abilities": {
+        "down_thrust": {
+            "name": "Down Thrust",
+            "location": "Windmill Tower",
+            "description": [
+                "Allows you to drop on enemies from ledges and jump to adjacent spaces",
+                "Allows you to drop on enemies from ledges and jump to adjacent spaces",
+                "Allows you to drop on enemies from ledges and jump to adjacent spaces"
+            ],
+            "allowed_characters": [
+                "cadence",
+                "link",
+                "zelda"
+            ]
+        },
+        "shield_technique": {
+            "name": "Shield Technique",
+            "location": "",
+            "description": [
+                "Allows you to attack while holding shield",
+                "Allows you to attack while holding shield",
+                "Allows you to hold Nayru's Love over multiple beats"
+            ],
+            "allowed_characters": [
+                "cadence",
+                "link",
+                "zelda"
+            ]
+        },
+        "flippers": {
+            "name": "Flippers",
+            "location": "Lake Hylia Cave",
+            "description": [
+                "Allows you to move through deeper water, so that you can explore Lake Hylia",
+                "Allows you to move through deeper water, so that you can explore Lake Hylia",
+                "Allows you to move through deeper water, so that you can explore Lake Hylia"
+            ],
+            "allowed_characters": [
+                "cadence",
+                "link",
+                "zelda"
+            ]
+        },
+        "snorkel": {
+            "name": "Snorkel",
+            "location": "Beach Shop",
+            "description": [
+                "This lets you drive with the [[flippers]], using A, B, X, or Y, or move through a single deep-water tile without them",
+                "This lets you drive with the [[flippers]], using A, B, X, or Y, or move through a single deep-water tile without them",
+                "This lets you drive with the [[flippers]], using A, B, X, or Y, or move through a single deep-water tile without them"
+            ],
+            "allowed_characters": [
+                "cadence",
+                "link",
+                "zelda"
+            ]
+        },
+        "goron_locket": {
+            "name": "Goron Locket",
+            "location": "Some Shop",
+            "description": [
+                "Makes the wearer immune to damage from lava and hot coals",
+                "Makes the wearer immune to damage from lava and hot coals",
+                "Makes the wearer immune to damage from lava and hot coals"
+            ],
+            "allowed_characters": [
+                "cadence",
+                "link",
+                "zelda"
+            ]
+        },
+        "hibiscus_potion": {
+            "name": "Hibiscus Potion",
+            "location": "Karakiro Village Grave",
+            "description": [
+                "This can be used to awaken a certain sleeping person...",
+                "This can be used to awaken a certain sleeping person...",
+                "This can be used to awaken a certain sleeping person..."
+            ],
+            "allowed_characters": [
+                "cadence",
+                "link",
+                "zelda"
+            ]
+        },
+    },
+    "character_abilities": {
+        "l_button": {},
+        "r_button": {}
+    },
+    "weapons": {
+        "short_sword": {
+            "name": "Short Sword",
+            "image": "weapon_short_sword",
+            "slot": 1,
+            "variants": [
+                "base",
+                "ruby",
+                "titanium",
+                "emerald",
+                "obsidian"
+            ],
+            "used_by": [
+                "link"
+            ],
+            "special": false,
+            "location": ""
+        },
+        "dagger": {
+            "name": "Dagger",
+            "image": "weapon_dagger",
+            "slot": 1,
+            "variants": [
+                "base",
+                "ruby",
+                "titanium",
+                "emerald",
+                "obsidian"
+            ],
+            "used_by": [
+                "cadence",
+                "zelda"
+            ],
+            "special": false,
+            "location": ""
+        },
+        "broadsword": {
+            "name": "Broadsword",
+            "image": "weapon_broadsword",
+            "slot": 2,
+            "variants": [
+                "base",
+                "ruby",
+                "titanium",
+                "emerald",
+                "obsidian"
+            ],
+            "used_by": [
+                "cadence",
+                "link",
+                "zelda"
+            ],
+            "special": false,
+            "location": ""
+        },
+        "spear": {
+            "name": "Spear",
+            "image": "weapon_spear",
+            "slot": 3,
+            "variants": [
+                "base",
+                "ruby",
+                "titanium",
+                "emerald",
+                "obsidian"
+            ],
+            "used_by": [
+                "cadence",
+                "link",
+                "zelda"
+            ],
+            "special": false,
+            "location": ""
+        },
+        "naginata": {
+            "name": "Impa's Naginata",
+            "image": "weapon_impas_naginata",
+            "slot": 3,
+            "variants": [
+                "base"
+            ],
+            "used_by": [
+                "cadence",
+                "link",
+                "zelda"
+            ],
+            "special": true,
+            "location": ""
+        },
+        "flail": {
+            "name": "Flail",
+            "image": "weapon_flail",
+            "slot": 4,
+            "variants": [
+                "base",
+                "ruby",
+                "titanium",
+                "emerald",
+                "obsidian"
+            ],
+            "used_by": [
+                "cadence",
+                "link",
+                "zelda"
+            ],
+            "special": false,
+            "location": ""
+        },
+        "caladbolg": {
+            "name": "Caladbolg",
+            "image": "weapon_caladbolg",
+            "slot": 5,
+            "variants": [
+                "base"
+            ],
+            "used_by": [
+                "link"
+            ],
+            "special": true,
+            "location": ""
+        },
+        "rapier": {
+            "name": "Rapier",
+            "image": "weapon_rapier",
+            "slot": 5,
+            "variants": [
+                "base",
+                "ruby",
+                "titanium",
+                "emerald",
+                "obsidian"
+            ],
+            "used_by": [
+                "cadence",
+                "zelda"
+            ],
+            "special": false,
+            "location": ""
+        },
+        "royal_rapier": {
+            "name": "Royal Rapier",
+            "image": "weapon_royal_rapier",
+            "slot": 5,
+            "variants": [
+                "base"
+            ],
+            "used_by": [
+                "zelda"
+            ],
+            "special": true,
+            "location": ""
+        },
+        "great_shovel": {
+            "name": "Great Shovel",
+            "image": "weapon_great_shovel",
+            "slot": 5,
+            "variants": [
+                "base"
+            ],
+            "used_by": [
+                "cadence"
+            ],
+            "special": true,
+            "location": ""
+        },
+    }
+}

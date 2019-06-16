@@ -8,7 +8,7 @@
                 "area": "Death Mountain",
                 "region": "Light World"
             },
-            "skips": {},
+            "skips": [],
             "boss": {
                 "name": "Gleeokenspiel",
                 "image": "boss_gleeokenspiel",
@@ -25,7 +25,7 @@
                 "area": "Gerudo Valley",
                 "region": "Light World"
             },
-            "skips": {},
+            "skips": [],
             "boss": {
                 "name": "Bass Guitarmos Knights",
                 "image": "boss_guitarmos_knights",
@@ -42,7 +42,7 @@
                 "area": "Lost Woods",
                 "region": "Light World"
             },
-            "skips": {},
+            "skips": [],
             "boss": {
                 "name": "Gohmaracas",
                 "image": "boss_gohmaracas",
@@ -59,7 +59,7 @@
                 "area": "Lake Hylia",
                 "region": "Light World"
             },
-            "skips": {},
+            "skips": [],
             "boss": {
                 "name": "Wizzroboe",
                 "image": "boss_wizzroboe",
@@ -76,7 +76,7 @@
                 "area": "Kakariko Village",
                 "region": "Light World"
             },
-            "skips": {},
+            "skips": [],
             "boss": {
                 "name": "Dark Hero",
                 "image": "boss_dark_hero",
@@ -93,7 +93,7 @@
                 "area": "Hyrule Castle",
                 "region": "Light World"
             },
-            "skips": {},
+            "skips": [],
             "boss": {
                 "name": "Octavo",
                 "image": "boss_octavo",
@@ -110,7 +110,7 @@
                 "area": "Hyrule Castle",
                 "region": "Light World"
             },
-            "skips": {},
+            "skips": [],
             "boss": {
                 "name": "Ganon",
                 "image": "boss_ganon",
@@ -121,121 +121,171 @@
         }
     },
     "items": {
+        "bomb":{
+            "id": 1,
+            "name": "Bomb",
+            "image": "item_bomb",
+            "description": "Place a bomb in front of you. Deals damage to adjacent spaces. Can be kicked or thrown.",
+            "uses": [],
+            "skips": [],
+            "progressive": false,
+            "requires": ""
+        },
+        "bombchu":{
+            "id": 2,
+            "name": "Bombchu",
+            "image": "item_bombchu",
+            "description": "It moves in a straight line and explodes after seven beats or if it makes contact with something.",
+            "uses": [],
+            "skips": [],
+            "progressive": false,
+            "requires": ""
+        },
         "bow": {
+            "id": 3,
             "name": "Bow",
             "image": "item_bow",
+            "description": "",
             "uses": [],
             "skips": [],
             "progressive": true,
             "requires": ""
         },
         "great_bow": {
+            "id": 4,
             "name": "Great Bow",
             "image": "item_bow_great",
+            "description": "Hold the button down and release on the following beat to fire an arrow that can hit and pierce enemies from a distance.",
             "uses": [],
             "skips": [],
             "progressive": true,
             "requires": "bow"
         },
         "boomerang": {
+            "id": 5,
             "name": "Boomerang",
             "image": "item_boomerang",
+            "description": "",
             "uses": [],
             "skips": [],
             "progressive": true,
             "requires": ""
         },
         "magic_boomerang": {
+            "id": 6,
             "name": "Magic Boomerang",
             "image": "item_boomerang_magic",
+            "description": "Throw this at enemies to stun or damage them. It always finds its way back to you.",
             "uses": [],
             "skips": [],
             "progressive": true,
             "requires": "boomerang"
         },
         "fire_rod": {
+            "id": 7,
             "name": "Fire Rod",
             "image": "item_rod_fire",
+            "description": "This will launch a ball of fire dealing 1 damage in the direction you're facing, at the cost of stamina.",
             "uses": [],
             "skips": [],
             "progressive": false,
             "requires": ""
         },
         "ice_rod": {
+            "id": 8,
             "name": "Ice Rod",
             "image": "item_rod_ice",
+            "description": "This will launch a ball of ice dealing 1 damage in the direction you're facing, at the cost of stamina.",
             "uses": [],
             "skips": [],
             "progressive": false,
             "requires": ""
         },
         "hookshot": {
+            "id": 9,
             "name": "Hookshot",
             "image": "item_hookshot",
+            "description": "",
             "uses": [],
             "skips": [],
             "progressive": true,
             "requires": ""
         },
         "longshot": {
+            "id": 10,
             "name": "Longshot",
             "image": "item_longshot",
+            "description": "Use it to pull yourself to certain objects or stun and knock back enemies.",
             "uses": [],
             "skips": [],
             "progressive": true,
             "requires": "hookshot"
         },
         "anklet": {
+            "id": 11,
             "name": "Pegasus Anklet",
             "image": "item_pegasus_anklet",
+            "description": "Hold then release the assigned button after one or two beats to leap forward, at the cost of stamina.",
             "uses": [],
             "skips": [],
             "progressive": false,
             "requires": ""
         },
         "feather": {
+            "id": 12,
             "name": "Rito's Feather",
             "image": "item_ritos_feather",
+            "description": "Use this to jump into the air and avoid enemy attacks, at the cost of stamina.",
             "uses": [],
             "skips": [],
             "progressive": false,
             "requires": ""
         },
         "deku_leaf": {
+            "id": 13,
             "name": "Deku Leaf",
             "image": "item_deku_leaf",
+            "description": "Use this to launch a gust of wind ahead of you that knocks back enemies and objects, at the cost of stamina.",
             "uses": [],
             "skips": [],
             "progressive": false,
             "requires": ""
         },
         "war_drum": {
+            "id": 14,
             "name": "War Drum",
             "image": "item_war_drum",
+            "description": "Use this to skip a beat and power up your attacks on the following beat!",
             "uses": [],
             "skips": [],
             "progressive": false,
             "requires": ""
         },
         "somaria": {
+            "id": 15,
             "name": "Cane of Somaria",
             "image": "item_cane_of_somaria",
+            "description": "Use this to magically create a block in fron of you, at the cost of stamina.",
             "uses": [],
             "skips": [],
             "progressive": false,
             "requires": ""
         },
         "lute": {
+            "id": 16,
             "name": "Lute",
             "image": "item_lute",
+            "description": "Use to immediately travel to activated Sheikah Stones around Hyrule.",
             "uses": [],
             "skips": [],
             "progressive": false,
             "requires": ""
         },
         "glove": {
+            "id": 17,
             "name": "Power Glove",
             "image": "item_power_glove",
+            "description": "Use this to pick up rocks and crates, and then use it again to throw them 3 spaces away.",
             "uses": [],
             "skips": [],
             "progressive": false,
@@ -244,58 +294,70 @@
         "dowser": {
             "name": "Tingle's Dowser",
             "image": "item_tingles_dowser",
+            "description": "Helps you through the Lost Woods or to find treasures.",
+            "uses": [],
+            "skips": [],
+            "progressive": false,
+            "requires": ""
+        },
+        "bottle": {
+            "name": "Bottle",
+            "image": "item_bottle",
+            "description": "Store things in this for later use.",
             "uses": [],
             "skips": [],
             "progressive": false,
             "requires": ""
         },
         "gear": {
+            "id": 18,
             "name": "Gear",
             "image": "item_gear",
+            "description": "If you give 3 of these to the Gerudo in the Gerudo Ruins, she'll be able to fix the bridge.",
             "uses": [],
             "skips": [],
             "progressive": false,
             "requires": ""
         },
         "deku_nuts": {
+            "id": 19,
             "name": "Deku Nuts",
             "image": "item_deku_nuts",
+            "description": "Collect as many of these as you can. Someone might be interested in them!",
             "uses": [],
             "skips": [],
             "progressive": false,
             "requires": ""
         },
         "shield": {
+            "id": 20,
             "name": "Hylian Shield",
-            "image": "item_shield_hylian",
+            "image": "equip_shield_hylian",
+            "description": "",
             "uses": [],
             "skips": [],
             "progressive": true,
             "requires": ""
         },
         "tower_shield": {
+            "id": 21,
             "name": "Tower Shield",
-            "image": "item_shield_tower",
+            "image": "equip_shield_tower",
+            "description": "",
             "uses": [],
             "skips": [],
             "progressive": true,
             "requires": "shield"
         },
         "mirror_shield": {
+            "id": 22,
             "name": "Mirror Shield",
-            "image": "item_shield_mirror",
+            "image": "equip_shield_mirror",
+            "description": "Blocks damage when you hold it up, at the cost of stamina. Can reflect most projectiles.",
             "uses": [],
             "skips": [],
             "progressive": true,
             "requires": "tower_shield"
-        },
-        "bottle": {
-            "name": "Bottle",
-            "image": "item_bottle",
-            "uses": [],
-            "skips": [],
-            "progressive": false,
-            "requires": ""
         }
     },
     "abilities": {

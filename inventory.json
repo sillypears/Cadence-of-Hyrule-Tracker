@@ -451,21 +451,35 @@
         "r_button": {}
     },
     "weapons": {
-        "short_sword": {
-            "name": "Short Sword",
-            "image": "weapon_short_sword",
+        "shortsword": {
+            "name": "Shortsword",
+            "image": "weapon_shortsword",
             "slot": 1,
             "variants": [
                 "base",
                 "ruby",
                 "titanium",
                 "emerald",
-                "obsidian"
+                "obsidian",
+                "glass"
             ],
             "used_by": [
                 "link"
             ],
             "special": false,
+            "location": ""
+        },
+        "shortsword_unique": {
+            "name": "Short Sword",
+            "image": "weapon_shortsword_unique",
+            "slot": 1,
+            "variants": [
+                "base"
+            ],
+            "used_by": [
+                "link"
+            ],
+            "special": true,
             "location": ""
         },
         "dagger": {
@@ -477,13 +491,28 @@
                 "ruby",
                 "titanium",
                 "emerald",
-                "obsidian"
+                "obsidian",
+                "glass"
             ],
             "used_by": [
                 "cadence",
                 "zelda"
             ],
             "special": false,
+            "location": ""
+        },
+        "dagger_unique": {
+            "name": "Jeweled Dagger",
+            "image": "weapon_dagger_unique",
+            "slot": 1,
+            "variants": [
+                "base"
+            ],
+            "used_by": [
+                "cadence",
+                "zelda"
+            ],
+            "special": true,
             "location": ""
         },
         "broadsword": {
@@ -495,7 +524,8 @@
                 "ruby",
                 "titanium",
                 "emerald",
-                "obsidian"
+                "obsidian",
+                "glass"
             ],
             "used_by": [
                 "cadence",
@@ -503,6 +533,21 @@
                 "zelda"
             ],
             "special": false,
+            "location": ""
+        },
+        "broadsword_unique": {
+            "name": "Fragarach",
+            "image": "weaspon_broadsword_unique",
+            "slot": 2,
+            "variants": [
+                "base"
+            ],
+            "used_by": [
+                "cadence",
+                "link",
+                "zelda"
+            ],
+            "special": true,
             "location": ""
         },
         "spear": {
@@ -514,7 +559,8 @@
                 "ruby",
                 "titanium",
                 "emerald",
-                "obsidian"
+                "obsidian",
+                "glass"
             ],
             "used_by": [
                 "cadence",
@@ -524,7 +570,7 @@
             "special": false,
             "location": ""
         },
-        "naginata": {
+        "spear_unique": {
             "name": "Impa's Naginata",
             "image": "weapon_impas_naginata",
             "slot": 3,
@@ -548,7 +594,8 @@
                 "ruby",
                 "titanium",
                 "emerald",
-                "obsidian"
+                "obsidian",
+                "glass"
             ],
             "used_by": [
                 "cadence",
@@ -558,15 +605,17 @@
             "special": false,
             "location": ""
         },
-        "caladbolg": {
-            "name": "Caladbolg",
-            "image": "weapon_caladbolg",
-            "slot": 5,
+        "flail_unique": {
+            "name": "Hylian Flail",
+            "image": "weapon_flail_unique",
+            "slot": 4,
             "variants": [
                 "base"
             ],
             "used_by": [
-                "link"
+                "cadence",
+                "link",
+                "zelda"
             ],
             "special": true,
             "location": ""
@@ -580,10 +629,10 @@
                 "ruby",
                 "titanium",
                 "emerald",
-                "obsidian"
+                "obsidian",
+                "glass"
             ],
             "used_by": [
-                "cadence",
                 "zelda"
             ],
             "special": false,
@@ -598,6 +647,19 @@
             ],
             "used_by": [
                 "zelda"
+            ],
+            "special": true,
+            "location": ""
+        },
+        "caladbolg": {
+            "name": "Caladbolg",
+            "image": "weapon_caladbolg",
+            "slot": 5,
+            "variants": [
+                "base"
+            ],
+            "used_by": [
+                "link"
             ],
             "special": true,
             "location": ""

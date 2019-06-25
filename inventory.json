@@ -121,7 +121,7 @@
         }
     },
     "items": {
-        "bomb":{
+        "bomb": {
             "id": 1,
             "name": "Bomb",
             "image": "item_bomb",
@@ -131,7 +131,7 @@
             "progressive": false,
             "requires": ""
         },
-        "bombchu":{
+        "bombchu": {
             "id": 2,
             "name": "Bombchu",
             "image": "item_bombchu",
@@ -161,8 +161,48 @@
             "progressive": true,
             "requires": "bow"
         },
-        "boomerang": {
+        "fire_arrows": {
             "id": 5,
+            "name": "Fire Arrows",
+            "image": "equip_fire_arrows",
+            "description": "Imbues your arrows with a fire effect, at the cost of stamina.",
+            "uses": [],
+            "skips": [],
+            "progressive": true,
+            "requires": "bow"
+        },
+        "ice_arrows": {
+            "id": 6,
+            "name": "Ice Arrows",
+            "image": "equip_ice_arrows",
+            "description": "Imbues your arrows with an ice effect, at the cost of stamina.",
+            "uses": [],
+            "skips": [],
+            "progressive": true,
+            "requires": "bow"
+        },
+        "lightning_arrows": {
+            "id": 7,
+            "name": "Lightning Arrows",
+            "image": "equip_lightning_arrows",
+            "description": "Imbues your arrows with a lightning effect, at the cost of stamina.",
+            "uses": [],
+            "skips": [],
+            "progressive": true,
+            "requires": "bow"
+        },
+        "poison_arrows": {
+            "id": 8,
+            "name": "Poison Arrows",
+            "image": "equip_poison_arrows",
+            "description": "Imbues your arrows with a poison effect, at the cost of stamina.",
+            "uses": [],
+            "skips": [],
+            "progressive": true,
+            "requires": "bow"
+        },
+        "boomerang": {
+            "id": 9,
             "name": "Boomerang",
             "image": "item_boomerang",
             "description": "",
@@ -172,7 +212,7 @@
             "requires": ""
         },
         "magic_boomerang": {
-            "id": 6,
+            "id": 10,
             "name": "Magic Boomerang",
             "image": "item_boomerang_magic",
             "description": "Throw this at enemies to stun or damage them. It always finds its way back to you.",
@@ -182,7 +222,7 @@
             "requires": "boomerang"
         },
         "fire_rod": {
-            "id": 7,
+            "id": 11,
             "name": "Fire Rod",
             "image": "item_rod_fire",
             "description": "This will launch a ball of fire dealing 1 damage in the direction you're facing, at the cost of stamina.",
@@ -192,7 +232,7 @@
             "requires": ""
         },
         "ice_rod": {
-            "id": 8,
+            "id": 12,
             "name": "Ice Rod",
             "image": "item_rod_ice",
             "description": "This will launch a ball of ice dealing 1 damage in the direction you're facing, at the cost of stamina.",
@@ -202,7 +242,7 @@
             "requires": ""
         },
         "hookshot": {
-            "id": 9,
+            "id": 13,
             "name": "Hookshot",
             "image": "item_hookshot",
             "description": "",
@@ -212,7 +252,7 @@
             "requires": ""
         },
         "longshot": {
-            "id": 10,
+            "id": 14,
             "name": "Longshot",
             "image": "item_longshot",
             "description": "Use it to pull yourself to certain objects or stun and knock back enemies.",
@@ -222,7 +262,7 @@
             "requires": "hookshot"
         },
         "anklet": {
-            "id": 11,
+            "id": 15,
             "name": "Pegasus Anklet",
             "image": "item_pegasus_anklet",
             "description": "Hold then release the assigned button after one or two beats to leap forward, at the cost of stamina.",
@@ -232,7 +272,7 @@
             "requires": ""
         },
         "feather": {
-            "id": 12,
+            "id": 16,
             "name": "Rito's Feather",
             "image": "item_ritos_feather",
             "description": "Use this to jump into the air and avoid enemy attacks, at the cost of stamina.",
@@ -242,7 +282,7 @@
             "requires": ""
         },
         "deku_leaf": {
-            "id": 13,
+            "id": 17,
             "name": "Deku Leaf",
             "image": "item_deku_leaf",
             "description": "Use this to launch a gust of wind ahead of you that knocks back enemies and objects, at the cost of stamina.",
@@ -252,7 +292,7 @@
             "requires": ""
         },
         "war_drum": {
-            "id": 14,
+            "id": 18,
             "name": "War Drum",
             "image": "item_war_drum",
             "description": "Use this to skip a beat and power up your attacks on the following beat!",
@@ -262,7 +302,7 @@
             "requires": ""
         },
         "somaria": {
-            "id": 15,
+            "id": 19,
             "name": "Cane of Somaria",
             "image": "item_cane_of_somaria",
             "description": "Use this to magically create a block in fron of you, at the cost of stamina.",
@@ -272,7 +312,7 @@
             "requires": ""
         },
         "lute": {
-            "id": 16,
+            "id": 20,
             "name": "Lute",
             "image": "item_lute",
             "description": "Use to immediately travel to activated Sheikah Stones around Hyrule.",
@@ -282,7 +322,7 @@
             "requires": ""
         },
         "glove": {
-            "id": 17,
+            "id": 21,
             "name": "Power Glove",
             "image": "item_power_glove",
             "description": "Use this to pick up rocks and crates, and then use it again to throw them 3 spaces away.",
@@ -292,6 +332,7 @@
             "requires": ""
         },
         "dowser": {
+            "id": 22,
             "name": "Tingle's Dowser",
             "image": "item_tingles_dowser",
             "description": "Helps you through the Lost Woods or to find treasures.",
@@ -301,6 +342,7 @@
             "requires": ""
         },
         "bottle": {
+            "id": 23,
             "name": "Bottle",
             "image": "item_bottle",
             "description": "Store things in this for later use.",
@@ -310,7 +352,7 @@
             "requires": ""
         },
         "gear": {
-            "id": 18,
+            "id": 24,
             "name": "Gear",
             "image": "item_gear",
             "description": "If you give 3 of these to the Gerudo in the Gerudo Ruins, she'll be able to fix the bridge.",
@@ -320,7 +362,7 @@
             "requires": ""
         },
         "deku_nuts": {
-            "id": 19,
+            "id": 25,
             "name": "Deku Nuts",
             "image": "item_deku_nuts",
             "description": "Collect as many of these as you can. Someone might be interested in them!",
@@ -330,7 +372,7 @@
             "requires": ""
         },
         "shield": {
-            "id": 20,
+            "id": 26,
             "name": "Hylian Shield",
             "image": "equip_shield_hylian",
             "description": "",
@@ -340,7 +382,7 @@
             "requires": ""
         },
         "tower_shield": {
-            "id": 21,
+            "id": 27,
             "name": "Tower Shield",
             "image": "equip_shield_tower",
             "description": "",
@@ -350,7 +392,7 @@
             "requires": "shield"
         },
         "mirror_shield": {
-            "id": 22,
+            "id": 28,
             "name": "Mirror Shield",
             "image": "equip_shield_mirror",
             "description": "Blocks damage when you hold it up, at the cost of stamina. Can reflect most projectiles.",
